@@ -9,7 +9,7 @@ function NavigationBar () {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbar-toggler">
-          <a className="navbar-brand" href="#home">Tomas Ferrari</a>
+          <a className="navbar-brand" href="#home">Crypto Converter</a>
           <ul className="navbar-nav d-flex justify-content-center align-items-center">
             <li className="nav-item">
               <a className="nav-link " aria-current="page" href='#SocialMedia'>Social Media</a>
