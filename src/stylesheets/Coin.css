@@ -1,0 +1,11 @@
+
+.coins-style{
+  color: white;
+}
+.card-body{
+  padding: 10px 10px 10px 10px !important;
+  background-color: #404040 !important;
+}
+.card-title{
+  font-weight: bold;
+}
