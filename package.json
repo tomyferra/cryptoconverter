@@ -1,8 +1,10 @@
 {
   "name": "cryptoapp",
+  "homepage": "https://tomyferra.github.io/cryptoconverter",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@cryptofonts/cryptofont": "^1.3.5",
     "@emailjs/browser": "^3.10.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

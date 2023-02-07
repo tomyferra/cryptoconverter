@@ -3,7 +3,6 @@ import { useState } from "react";
 import '../stylesheets/Converter.css';
 import {Coins} from './CoinsData';
 import Coin from '../components/Coin';
-import { v4 as uuidv4 } from 'uuid';
 
 
 
@@ -55,8 +54,9 @@ function Converter () {
     <div className="container-fluid converter-container text-center" id="CryptoApp">
       <div className="row bitcoin-amount">
         <div className="container">
-          <label htmlFor="bitcoinamount"><h2>Bitcoin</h2></label>
-          <input type="number" className="form-control" id="bitcoinamount"  placeholder="Bitcoin" onChange={handleChange} />
+          <label htmlFor="bitcoinamount"><h2>Bitcoin <i className="cf cf-btc"></i></h2></label>
+          <p>Insert an amount of BTC and calculate how much that is valued in BUSD and get equivalences for other coins!</p>
+          <input type="number" className="form-control container w-50" id="bitcoinamount"  placeholder="Bitcoin" onChange={handleChange} />
           <button onClick={handleClick} type="button" className="btn btn-primary">Get Updated values!</button>
         </div>
       </div>
@@ -64,8 +64,8 @@ function Converter () {
         <div className="container">
           <div className="row coins-value">
             {Coins.map( (coin) => (
-                <div className="col col-md-4 coins-style">
-                  <Coin name={coin.name} id={coin.id} ticker={coin.ticker} dataFromParent={price} bitcoinAmount={values.bitcoinamount}/>
+                <div className="col col-sm-4 coins-style">
+                  <Coin name={coin.name} id={coin.id} ticker={coin.ticker} dataFromParent={price} bitcoinAmount={values.bitcoinamount} icon={coin.icon}/>
                 </div>
               ))}
           </div>
