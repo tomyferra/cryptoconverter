@@ -76,7 +76,7 @@ function Converter () {
         </div>
       </div>
       <div className="row description-converter">
-        <h3>Exchange rate based on blockchain API</h3>
+        <h3>Exchange rate based on Binance public API</h3>
       </div>
     </div>
   );
