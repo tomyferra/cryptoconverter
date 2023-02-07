@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cryptoconverter/static/css/main.a23346f8.css",
+    "main.js": "/cryptoconverter/static/js/main.850cf136.js",
+    "index.html": "/cryptoconverter/index.html",
+    "main.a23346f8.css.map": "/cryptoconverter/static/css/main.a23346f8.css.map",
+    "main.850cf136.js.map": "/cryptoconverter/static/js/main.850cf136.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a23346f8.css",
+    "static/js/main.850cf136.js"
+  ]
+}
