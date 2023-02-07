@@ -4,7 +4,7 @@ import '../App.css';
 
 function Links () {
   return(
-    <div id="SocialMedia" className="container-fluid links-container">
+    <footer id="SocialMedia" className="container-fluid links-container mt-auto">
       <div className="container-fluid">
         <div className="col-sm-12 social-media ">
           <div className="row text-center align-middle">
@@ -31,7 +31,7 @@ function Links () {
           </div>
         </div>
       </div>
-    </div>
+    </footer>
   );
 }
 

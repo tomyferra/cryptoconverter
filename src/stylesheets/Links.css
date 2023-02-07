@@ -1,5 +1,7 @@
 .links-container{
   padding: 10px;
+  background-color: #15202b;
+
 }
 
 .social-media{
@@ -21,3 +23,4 @@ text-decoration: underline;
 .link{
   margin: 10px 0 10px 0;
 }
+
