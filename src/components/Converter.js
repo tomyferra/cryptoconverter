@@ -45,6 +45,10 @@ function Converter () {
     evt.preventDefault();
     const value=evt.target.value;
 
+    if (values<0){
+      alert("!Not negative numbers!");
+    }
+
     setValues({
       ...values,
       [evt.target.id]: value});
@@ -56,7 +60,7 @@ function Converter () {
         <div className="container">
           <label htmlFor="bitcoinamount"><h2>Bitcoin <i className="cf cf-btc"></i></h2></label>
           <p>Insert an amount of BTC and calculate how much that is valued in BUSD and get equivalences for other coins!</p>
-          <input type="number" className="form-control container w-50" id="bitcoinamount"  placeholder="Bitcoin" onChange={handleChange} />
+          <input type="number" min="0" className="form-control container w-50" id="bitcoinamount" placeholder="Bitcoin" onChange={handleChange} />
           <button onClick={handleClick} type="button" className="btn btn-primary">Get Updated values!</button>
         </div>
       </div>
