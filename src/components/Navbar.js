@@ -12,7 +12,7 @@ function NavigationBar () {
           <a className="navbar-brand" href="#home">Crypto Converter</a>
           <ul className="navbar-nav d-flex justify-content-center align-items-center">
             <li className="nav-item">
-              <a className="nav-link " aria-current="page" href='#SocialMedia'>Social Media</a>
+              <a className="nav-link " aria-current="page" href='#SocialMedia'>Social Media Links</a>
             </li>
           </ul>
         </div>
