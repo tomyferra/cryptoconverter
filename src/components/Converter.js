@@ -59,7 +59,7 @@ function Converter () {
       <div className="row bitcoin-amount">
         <div className="container">
           <label htmlFor="bitcoinamount"><h2>Bitcoin <i className="cf cf-btc"></i></h2></label>
-          <p>Insert an amount of BTC and calculate how much that is valued in BUSD and get equivalences for other coins!</p>
+          <p>Enter the Bitcoin value you want to convert. The app will display the converted value expressed in multiple currencies based on the current exchange rate</p>
           <input type="number" min="0" className="form-control container w-50" id="bitcoinamount" placeholder="Bitcoin" onChange={handleChange} />
           <button onClick={handleClick} type="button" className="btn btn-primary">Get Updated values!</button>
         </div>

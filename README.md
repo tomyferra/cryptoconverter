@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# Bitcoin Currency Converter
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://tomyferra.github.io/cryptoconverter/
 
-## Available Scripts
+#
+This web application is designed to facilitate currency conversion between Bitcoin and other major currencies. The app uses the latest Bitcoin price data from the Binance exchange API to provide users with a real-time conversion rate.
+#
 
-In the project directory, you can run:
+## Features
+* Easy to use interface
+* Fast and reliable currency conversion
+* Up-to-date and accurate market data
+* Supports a comprehensive list of commonly traded currencies
 
-### `npm start`
+## Usage
+* Enter the Bitcoin value you want to convert
+* The app will display the converted value expressed in multiple currencies based on the current exchange rate
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Benefits
+* Ideal for investors and traders who need quick access to accurate market data
+* Provides a fast and reliable way to obtain real-time exchange rates
+* User-friendly interface makes it easy to use for anyone who deals with Bitcoin and other major currencies
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Conclusion
+Overall, this web application is an excellent tool for anyone who needs to convert Bitcoin to other currencies. With its user-friendly interface and accurate data, it offers a fast and reliable way to obtain real-time exchange rates and make currency conversions quickly and easily.
+# 
+## Contributing
+If you would like to contribute to this project, feel free to fork the repository and submit a pull request. You can also report any bugs or issues in my personal email: ferra.tomy@gmail.com
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#
+## Contact details
+* Mail: ferra.tomy@gmail.com
+* Phone: +54 9 (11) 69002457
+* Portfolio: https://tomyferra.github.io/Portfolio/
+* Github: https://github.com/tomyferra
